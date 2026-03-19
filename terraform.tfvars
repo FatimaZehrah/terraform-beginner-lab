@@ -1,0 +1,6 @@
+aws_region    = "us-east-1"
+ami_id        = "ami-0e2c8caa4b6378d8c"
+instance_type = "t3.micro"
+vpc_name      = "lab-vpc"
+subnet_name   = "lab-subnet"
+instance_name = "lab-ec2-instance"
