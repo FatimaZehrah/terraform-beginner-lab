@@ -1,7 +1,7 @@
 # Terraform Beginner Lab
 
 ## Overview
-This project is a beginner Terraform lab for provisioning AWS infrastructure.
+This project is a beginner Terraform lab for provisioning AWS infrastructure on AWS using Terraform.
 
 ## Resources Created
 - 1 VPC
@@ -9,11 +9,12 @@ This project is a beginner Terraform lab for provisioning AWS infrastructure.
 - 1 EC2 Instance
 
 ## Files in This Project
-- `main.tf` → main Terraform infrastructure code
-- `variables.tf` → input variable definitions
-- `terraform.tfvars` → actual values for variables
-- `outputs.tf` → output values after deployment
-- `.gitignore` → files ignored by Git
+- `main.tf` - main Terraform infrastructure code
+- `variables.tf` - input variable definitions
+- `terraform.tfvars` - actual values for variables
+- `outputs.tf` - output values after deployment
+- `.gitignore` - files ignored by Git
+- `README.md` - project documentation
 
 ## AWS Region
 This lab is configured to run in `us-east-1`.
